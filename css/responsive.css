@@ -2,7 +2,15 @@
   display: flex;
 }
 
-/* start of work-portfolio styling */
+.site-picture-container {
+  display: flex;
+}
+
+.attribution-notice {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .mockwork-container {
   display: flex;
   flex-wrap: wrap;
@@ -11,5 +19,12 @@
 @media screen and (min-width: 300px) {
   .mockwork-container {
     justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .attribution-notice {
+    font-size: 12px;
+    margin-right: 12px;
   }
 }
