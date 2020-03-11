@@ -1,0 +1,113 @@
+
+/* start of header styling */
+header {
+  color: #697681;
+  border-style: solid;
+  border-width: 20px;
+  border-color: lightblue;
+}
+
+.holding-container {
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 20px;
+  border-color: brown;
+}
+
+.logo-container {
+  border-style: solid;
+  border-width: 10px;
+  border-color: orange;
+}
+
+.logo {
+  border-style: solid;
+  border-width: 5px;
+  border-color: green;
+}
+
+.designer-container {
+  border-style: solid;
+  border-width: 10px;
+  border-color: lightgreen;
+}
+
+.designer {
+  text-transform: uppercase;
+  border-style: solid;
+  border-width: 5px;
+  border-color: blue;
+}
+
+.role {
+  text-transform: uppercase;
+  color: #2d3c49;
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+}
+
+/* start of main content styling */
+
+.content {
+  border-style: solid;
+  border-width: 20px;
+  border-color: pink;
+}
+
+.mainsite-picture {
+  border-style: solid;
+  border-width: 20px;
+  border-color: grey;
+}
+
+/* start of work-portfolio styling */
+.work-title {
+  color: #7d97ad;
+  border-style: solid;
+  border-width: 20px;
+  border-color: red;
+}
+
+.work-container {
+  border-style: solid;
+  border-width: 20px;
+  border-color: purple;
+}
+
+.image-spacer {
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
+}
+
+.project-container {
+  width: 250px;
+  border-style: solid;
+  border-width: 20px;
+  border-color: green;
+}
+
+.project-image {
+  height: 200px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+}
+
+.project-title {
+  text-transform: uppercase;
+  padding-top: 5px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: blue;
+}
+
+.project-link {
+  text-transform: lowercase;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 5px;
+  border-color: lightgreen;
+}

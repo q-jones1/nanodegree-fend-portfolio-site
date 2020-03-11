@@ -1,0 +1,9 @@
+.holding-container {
+  display: flex;
+}
+
+/* start of work-portfolio styling */
+.work-container {
+  display: flex;
+  flex-wrap: wrap;
+}
