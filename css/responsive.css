@@ -16,9 +16,66 @@
   flex-wrap: wrap;
 }
 
+@media screen and (max-width:160px) {
+  .designer {
+    font-size: 14px;
+  }
+  .role {
+    font-size: 8px;
+  }
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin: 5px 0;
+  }
+  .mockwork-title {
+    font-size: 15px;
+  }
+  .project-title {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width:161px) and (max-width: 299px) {
+  .designer {
+    font-size: 18px;
+  }
+  .role {
+    font-size: 10px;
+  }
+  .logo {
+    width: 36px;
+    height: 36px;
+    margin: 7px 0;
+  }
+}
+
 @media screen and (min-width: 300px) {
   .mockwork-container {
     justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .project-container {
+    width: 100%;
+    height: 100%;
+  }
+  .project-link {
+    word-wrap: break-word;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 349px) {
+  .designer {
+    font-size: 24px;
+  }
+  .role {
+    font-size: 12px;
+  }
+  .logo {
+    width: 40px;
+    height: 40px;
   }
 }
 
