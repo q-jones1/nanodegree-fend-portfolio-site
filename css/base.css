@@ -7,6 +7,7 @@ body {
 /* start of header styling */
 .holding-container {
   justify-content: space-between;
+  width: 100%;
   border-bottom: 5px solid #7d97ad;
   box-sizing: border-box;
 }
