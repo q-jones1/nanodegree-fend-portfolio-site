@@ -46,11 +46,24 @@ body {
 }
 
 .site-picture-container {
-  border: 10px solid #fff;
+  border-left: 5px solid #fff;
+  border-right: 5px solid #fff;
 }
 
 .site-pic {
   width: 100%;
+  margin: 10px 0 0 0;
+}
+
+.attribution-notice {
+  color: #dce4e8;
+  background-color: #636466;
+  font-style: italic;
+  line-height: 20px;
+  padding: 0 5px 0 5px;
+  margin: 0 0 0 5px;
+  position: absolute;
+  border-radius: 0 2px 2px 0;
 }
 
 /* start of work-portfolio styling */
@@ -58,7 +71,7 @@ body {
   color: #7d97ad;
   font-weight: bold;
   font-size: 20px;
-  margin: 20px 0 0 10px;
+  margin: 60px 0 0 10px;
 }
 
 .mockwork-container {
