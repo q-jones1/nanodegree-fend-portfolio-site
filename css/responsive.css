@@ -79,9 +79,47 @@
   }
 }
 
+@media screen and (min-width: 350px) and (max-width: 420px) {
+  .designer {
+    font-size: 30px;
+  }
+  .role {
+    font-size: 14px;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+}
+
 @media screen and (max-width: 420px) {
   .attribution-notice {
     font-size: 12px;
     margin-right: 12px;
+  }
+}
+
+@media screen and (min-width: 421px) and (max-width: 723px) {
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+  .attribution-notice {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 724px) {
+  .designer {
+    font-size: 48px;
+  }
+  .role {
+    font-size: 20px;
+  }
+  .mockwork-title {
+    font-size: 36px;
+  }
+  .project-title {
+    font-size: 36px;
   }
 }
