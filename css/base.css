@@ -56,25 +56,25 @@ header {
   border-color: pink;
 }
 
-.mainsite-picture {
+.site-picture-container {
   border-style: solid;
   border-width: 20px;
   border-color: grey;
 }
 
-.main-pic {
+.site-pic {
   width: 100%;
 }
 
 /* start of work-portfolio styling */
-.work-title {
+.mockwork-title {
   color: #7d97ad;
   border-style: solid;
   border-width: 20px;
   border-color: red;
 }
 
-.work-container {
+.mockwork-container {
   border-style: solid;
   border-width: 20px;
   border-color: purple;
