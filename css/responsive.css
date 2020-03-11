@@ -3,7 +3,13 @@
 }
 
 /* start of work-portfolio styling */
-.work-container {
+.mockwork-container {
   display: flex;
   flex-wrap: wrap;
+}
+
+@media screen and (min-width: 300px) {
+  .mockwork-container {
+    justify-content: space-around;
+  }
 }
